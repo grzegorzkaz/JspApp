@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 
-
 <html>
 <head>
     <title>Greeting</title>
 </head>
 <body>
+<h1>Witaj nowy użytkowniku!</h1>
 
 <jsp:useBean id="newUser" class="pl.test.User2" scope="page"></jsp:useBean>
 <jsp:setProperty name="newUser" property="*"></jsp:setProperty>

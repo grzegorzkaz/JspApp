@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="greeting.jsp">
+<form action="greeting.jsp" method="post">
 
 <h4>Name and surname:</h4>
 First name: <input type="text" name="firstName"><br>

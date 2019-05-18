@@ -1,6 +1,8 @@
 package pl.test;
 
-public class User2 {
+import java.io.Serializable;
+
+public class User2 implements Serializable {
 
     private String firstName;
     private String lastName;
